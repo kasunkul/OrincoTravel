@@ -1,0 +1,4 @@
+services:
+#    dwm_master.example:
+#        class: DWM\MasterBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,6 @@
+dwm_user_login:
+    path:     /
+    defaults: { _controller: DWMUserBundle:Default:index }
+dwm_user_logout:
+    path:     /logout
+    defaults: { _controller: DWMUserBundle:Security:logout }

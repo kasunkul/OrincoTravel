@@ -1,0 +1,3 @@
+dwm_invoice_homepage:
+    path:     /
+    defaults: { _controller: DWMInvoiceBundle:Default:index }

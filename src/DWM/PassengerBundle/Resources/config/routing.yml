@@ -1,0 +1,3 @@
+dwm_passenger_homepage:
+    path:     /
+    defaults: { _controller: DWMPassengerBundle:Default:index }

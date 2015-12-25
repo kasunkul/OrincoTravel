@@ -1,0 +1,28 @@
+DWM\UserBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: DWM\UserBundle\Repository\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: '150'
+            unique: true
+        password:
+            type: string
+            length: 255
+        name:
+            type: string
+            length: 255
+        contact:
+            type: string
+            length: '150'
+        type:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }

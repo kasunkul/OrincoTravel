@@ -1,0 +1,12 @@
+dwm_voucher_add:
+    path:     /add_new_voucher
+    defaults: { _controller: DWMVoucherBundle:Default:index }
+dwm_voucher_view_all:
+    path:     /veiw_all
+    defaults: { _controller: DWMVoucherBundle:Default:veiw_all}
+dwm_voucher_persisting:
+    path:     /added
+    defaults: { _controller: DWMVoucherBundle:Default:persist}
+dwm_voucher_sent:
+    path:     /add
+    defaults: { _controller: DWMVoucherBundle:Default:add_voucher}

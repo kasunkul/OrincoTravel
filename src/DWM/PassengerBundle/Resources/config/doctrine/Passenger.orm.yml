@@ -1,0 +1,45 @@
+DWM\PassengerBundle\Entity\Passenger:
+    type: entity
+    table: null
+    repositoryClass: DWM\PassengerBundle\Repository\PassengerRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        voucherno:
+            type: integer
+        initials:
+            type: string
+            length: '25'
+            nullable: true
+        name:
+            type: string
+            length: 255
+        depart:
+            type: string
+            length: '150'
+        arrive:
+            type: string
+            length: '150'
+        date:
+            type: string
+            length: '150'
+            nullable: true
+        airline:
+            type: string
+            length: '150'
+            nullable: true
+        flightno:
+            type: integer
+        class:
+            type: string
+            length: '150'
+        status:
+            type: string
+            length: '150'
+        fare:
+            type: float
+    lifecycleCallbacks: {  }

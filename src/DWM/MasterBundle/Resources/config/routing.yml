@@ -1,0 +1,3 @@
+dwm_master_homepage:
+    path:     /
+    defaults: { _controller: DWMMasterBundle:Default:index }

@@ -1,0 +1,4 @@
+services:
+#    dwm_voucher.example:
+#        class: DWM\VoucherBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

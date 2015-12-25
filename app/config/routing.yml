@@ -1,0 +1,23 @@
+dwm_invoice:
+    resource: "@DWMInvoiceBundle/Resources/config/routing.yml"
+    prefix:   /invoice
+
+dwm_passenger:
+    resource: "@DWMPassengerBundle/Resources/config/routing.yml"
+    prefix:   /passenger
+
+dwm_voucher:
+    resource: "@DWMVoucherBundle/Resources/config/routing.yml"
+    prefix:   /voucher
+
+dwm_user:
+    resource: "@DWMUserBundle/Resources/config/routing.yml"
+    prefix:   /login
+
+dwm_master:
+    resource: "@DWMMasterBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

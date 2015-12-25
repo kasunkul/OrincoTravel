@@ -1,0 +1,53 @@
+DWM\VoucherBundle\Entity\Voucher:
+    type: entity
+    table: null
+    repositoryClass: DWM\VoucherBundle\Repository\VoucherRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        vouchno:
+            type: integer
+            unique: true
+        agentcode:
+            type: integer
+        date:
+            type: string
+            length: '150'
+            nullable: true
+        bookingref:
+            type: string
+            length: 255
+            nullable: true
+        remark:
+            type: string
+            length: 255
+            nullable: true
+        officer:
+            type: string
+            length: '150'
+        fsubtotal:
+            type: float
+        yqyr:
+            type: float
+        tax:
+            type: float
+        gtotal:
+            type: float
+        lessplus:
+            type: float
+        ntotal:
+            type: float
+        approved:
+            type: string
+            length: '15'
+        pending:
+            type: string
+            length: '15'
+        flag:
+            type: string
+            length: '115'
+    lifecycleCallbacks: {  }
